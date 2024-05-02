@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <img class="brand-img" src="logo.png"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+
+    <a>
+        <a class="btn" id="downloadbtn"  style="width:10%"><i class="fa fa-download"></i> Download</a>
+    </a>
+        <style>
+            .flex-container {
+ 
+                background-color: DodgerBlue;
+            }
+
+            .flex-container > div {
+                background-color: #f1f1f1;
+                width: 100px;
+                margin: 10px;
+                text-align: center;
+                line-height: 75px;
+                font-size: 30px;
+                }
+            
+                body{
+                    
+                        background-image: url("sabelo.jpg");
+                        background-color: black;
+                        width: 21cm;
+                        height: 29.7;
+                        margin: 0 auto;
+                        
+                    .container {  
+                        display: flex;
+                        flex-direction: row;
+                        width: 100%;
+                        height: 100%;
+                    }
+                    .btn {
+                         background-color: rgb(25, 216, 57);
+                         border: none;
+                         color: white;
+                         padding: 12px 30px;
+                         cursor: pointer;
+                         font-size: 20px;
+                         position: absolute;
+                         margin: 1% 30%;
+                    }
+                    .btn:hover {
+                        background-color: RoyalBlue;
+                    }
+                    .left {
+                        
+                        left: 40px;
+                        padding: 10px;
+                    }
+                    .left1 {
+                        position:absolute;
+                        left: 30px;
+                        padding: 10px;
+                    }
+                    .leftPanel{
+                        width: 45%;
+                        background-color: grey;
+                        padding: 0.27 cm;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                    }
+                    .rightPanel {
+                        width: 70%;
+                        padding: 0.8cm;
+                    }
+                    .item{
+                        padding-bottom: 0.7cm;
+                        padding-top: 0.7cm; 
+                    }
+                    .item h2{
+                        margin-top: 0;
+                    }
+                    .bottomLineSeparator {
+                         border-bottom: 0.05cm solid white;
+                    }
+                    h2 {
+                        font-family: 'Archivo Narrow', sans-serif;
+                    }
+                    .leftPanel h2 {
+                        color: white;
+                    }
+                    .img-profile {
+                        width: 4cm;
+                        height: 4cm;
+                        margin-bottom: 0.7cm;
+                        border-radius: 50%;
+                        border: 0.15cm solid white;
+                        object-fit: cover;
+                        object-position: 50% 50%;
+                    }
+                    .brand-img{
+                        width: 5cm;
+                        height: 2cm;
+                        border-block-style: 450%;
+
+                    }
+                    .details {
+                        width: 100%;
+                        display: flex;
+                        flex-direction: column;
+                    }
+
+
+                    }
+                    page{
+                        background-color: white;
+                        display: block;
+                        margin: 0 auto;
+                        margin-bottom: 0.5cm;
+                        position: relative;
+                    }
+                    page[size="A4"] {  
+                        width: 21cm;
+                        height: 29.7cm; 
+                    }
+                    @page {
+                        size: 21cm 29.7cm;
+                        margin: 0mm;
+                    }
+                    .leftPanel .smallText, 
+                    .leftPanel .smallText, 
+                    .leftPanel .smallText span, 
+                    .leftPanel .smallText p, 
+                    .smallText a{
+                        font-size: 0.30cm;
+                    }
+                    .rightPanel .smallText, 
+                    .rightPanel .smallText, 
+                    .rightPanel .smallText span, 
+                    .rightPanel .smallText p, 
+                    .smallText a{
+                        font-size: 0.30cm;
+                    }
+
+                    .smallText, 
+                    .smallText span, 
+                    .smallText p, 
+                    .smallText a {
+                        font-family: 'Source Sans Pro', sans-serif;
+                        text-align: justify;
+                    }
+                    .contactIcon {
+                         width: 0.5cm;
+                        text-align: center;
+                    }
+                    .leftPanel, 
+                    .leftPanel a {
+                        color: #bebebe;
+                        text-decoration: none;
+                    }
+                    h1{
+                        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                    }
+                    h1{
+                        font-weight: 300; 
+                        font-size: 1cm;
+                        transform:scale(1,1.15); 
+                        margin-bottom: 0.2cm;
+                        margin-top: 0.2cm;
+                        text-transform: uppercase;
+                    }
+                    h3 {
+                        font-family: 'Open Sans', sans-serif;
+                    }
+                    @media print {
+                        .btn{display: none;}
+                        
+                    }
+
+  
+
+        </style>   
+    </head>
+<body>
+    
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+   <page size = "A4">
+    <div class="container">
+        <div class="leftPanel">
+            <img class="img-profile" src="sabelo.jpg"/>
+            <div class="details">
+                <div class="item bottomLineSeparator">
+                    <h2>
+                      CONTACT
+                      <div class="smallText left">
+                        <p>
+                            <i class = "fa fa-phone contactIcon" aria-hidden="true"></i>
+                            0838672873
+
+                        </p>
+                        <p>
+                            <i class="fa fa-envelope contactIcon" aria-hidden="true"></i>
+                            sabeloprosperous@gmail.com
+                        </p>
+                        <p>
+                            <i class="fa fa-map-marker" aria-hidden="true"></i>
+                         Seleri Street, Rondebuilt,<br>Roodekop 1434.
+                        </p>
+                        
+                      </div>
+                    </h2>
+                  </div>
+                <div class="item bottomLineSeparator">
+                    <h2> SKILLS </h2>
+                    <div class="smallText">
+                        <div class skill>
+                            <div><span>
+                                <ul>java - intermediate</ul>
+                                <ul>.net - intermediate</ul>
+                                <ul>CSS - novice</ul>
+                                <ul>C++ - novice</ul>
+                                <ul>C# - intermediate</ul>
+                                <ul>Python - intermediate</ul>
+                                <ul>Linux - novice</ul>
+                                <ul>Visual Basic</ul>
+                                <ul>Microsoft SQL - intermediate</ul>
+                                <ul>HTML - novice</ul>
+
+                            </span></div>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="item">
+                        <h2> EDUCATION </h2>
+                        <div class="smallText left1">
+                            
+                            <p class="bolded white"><h4><strong>BSc Computer Science and IT</strong></h4></p>
+                            <p>University of KwaZulu-Natal</p>
+                            <p>Bachelor's Degree</p>
+                            <p class="bolded white"><h4><strong>Matric</strong></h4></p>
+                            <p>Klwana Combined Public School</p>
+                            <p>Higher Certificate</p>
+                        </div>
+                    </div>
+                
+            </div>
+        </div>
+        <div class="rightPanel">
+            <div>
+                <h1><strong><u>Sabelo Zulu</u></strong></h1>
+                <div class="smallText"><h4>Software Developer</h4></div>
+                <div><h2>ABOUT ME</h2></div>
+                <div class="smallText">
+                    <p>
+                        Detail-Oriented team player with strong organizational skill.<br> An ability
+                        to handle multiple projects semoultaneously with the high degree of accuracy.<br>
+                        Hard working and passionate job seeker with strong organizational skill eager to secure an entry level software developer <br> position.
+                        Ready to help the team to achieve company's goal, while learning.
+                    </p>
+
+                </div>
+                <div><h2>WORK EXPERIENCE</h2></div>
+                <div class="smallText">
+                    <p>
+                        <ul>
+                            <h4>Job     :   Multi-Skilled Worker <br></h4>
+                            Company     :   Zamimpilo Community Care Center <br>
+                            Duration    :   2009-2012 <br>
+                            <strong><u><h4>Description:</h4></u></strong><br>
+                            <ul>Helping care givers and other organization members with writing 
+                                of their weekly tasks, using Microsoft word, power point and excel.</ul>
+                            <ul>Making sure within the organization's premises is in order</ul>
+
+                        </ul>
+                        <ul>
+                            <h4>Job     :   Demonstrator <br></h4>
+                            Company     :   University of KwaZulu KwaZulu-Natal <br>
+                            Duration    :   2021 <br>
+                            <strong><u><h4>Description:</h4></u></strong><br>
+                            <ul>Helping first year students with their java practical assessment</ul>
+                            <ul>Marking the practical assessment</ul>
+
+                        </ul>
+                        <ul>
+                            <h4>Job     :   Candidate (Software Developer) <br></h4>
+                            Company     :   Digilink <br>
+                            Duration    :   Current <br>
+                            <strong><u><h4>Description:</h4></u></strong><br>
+                            <ul>Software Developer</ul>
+                            
+
+                        </ul>
+                    </p>
+
+                </div>
+                <div><h2>REFERENCES</h2></div>
+
+                <div class="smallText">
+                    
+                    <P><strong>Name</strong>         :   Siyabonga Nkosi<br>
+                        <strong>Job</strong>         :   Child and Youth Care Supervisor <br>
+                        <strong>Company</strong>     :   Zamimpilo Community Care Center<br>
+                        <strong>Email</strong>       :   ofiasqo@gmail.com<br>
+                        <strong>Phone</strong>       :   0655032604
+                    </P>
+                    <P><strong>Name</strong>         :   Lusanda Mthiba<br>
+                        <strong>Job</strong>         :   Software Developer <br>
+                        <strong>Company</strong>     :   BBD<br>
+                        <strong>Email</strong>       :   lusandamthiba@gmail.com<br>
+                        <strong>Phone</strong>       :   0818001327
+                    </P>
+                    <P><strong>Name</strong>         :   Olothando Gwiji<br>
+                        <strong>Job</strong>         :   Software Developer <br>
+                        <strong>Company</strong>     :   LexisNexis<br>
+                        <strong>Email</strong>       :   ologwiji1@gmail.com<br>
+                        <strong>Phone</strong>       :   0613418218
+                    </P>
+
+
+                </div>
+            </div>
+        </div> 
+        
+    </div>
+   </page> 
+    <script src = "script.js"></script>
+</body>
+</html>
